@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;count.BasicMain&apos; to &apos;CreateVocVectory&apos;&#x0A;- Original project: &apos;myBayes&apos;&#x0A;- Original element: &apos;count.BasicMain&apos;&#x0A;- Renamed element: &apos;count.CreateVocVectory&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BasicMain&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;count{BasicMain.java[BasicMain" matchStrategy="1" name="CreateVocVectory" qualified="false" references="true" similarDeclarations="false" stamp="1451629438759" textual="false" version="1.0"/>
+</session>
