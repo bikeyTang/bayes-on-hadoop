@@ -1,0 +1,9 @@
+package count;
+
+import org.apache.hadoop.io.BytesWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+
+public class MyFileInputFormat extends FileInputFormat<NullWritable,BytesWritable> {
+
+}
