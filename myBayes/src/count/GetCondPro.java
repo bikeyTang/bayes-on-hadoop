@@ -76,7 +76,7 @@ public class GetCondPro extends Configuration implements Tool{
 		Path outputPath=new Path(args[1]);
 		outputPath.getFileSystem(conf).delete(outputPath,true);
 		Job job=Job.getInstance(conf,"getCondP");
-		job.setJarByClass(GetProbability.class);
+		job.setJarByClass(GetCondPro.class);
 		job.setMapperClass(DocMap.class);
 		job.setCombinerClass(DocReduce.class);
 		job.setReducerClass(DocReduce.class);

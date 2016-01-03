@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.InputSplit"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.NullWritable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.BytesWritable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.JobContext"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
@@ -19,4 +18,16 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.util.ToolRunner"/>
 <fullyQualifiedTypeName name="count.GetProbability"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.RecordReader"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.NullWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.ByteWritable"/>
+<fullyQualifiedTypeName name="count.MyRecorderReader"/>
+<fullyQualifiedTypeName name="count.MyFileInputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.MapWritable"/>
+<fullyQualifiedTypeName name="count.GetCondPro"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.FloatWritable"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
