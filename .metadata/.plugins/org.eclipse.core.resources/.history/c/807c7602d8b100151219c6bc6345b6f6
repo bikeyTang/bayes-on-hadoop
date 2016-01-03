@@ -46,7 +46,7 @@ public class GetPriorP extends Configuration implements Tool{
 		public void reduce(Text key,Iterable<IntWritable> values,Context context) throws IOException,InterruptedException{
 			FloatWritable  p=new FloatWritable(0);
 			for(IntWritable val:values){
-				p=new FloatWritable(val.get()/fw.get());
+				p=new FloatWritable(val.get()/11134.f);
 				context.write(key,p);
 			}
 			

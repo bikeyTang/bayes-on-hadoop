@@ -22,14 +22,12 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 
 public class GetPriorP extends Configuration implements Tool{
-	public static FloatWritable fw=new FloatWritable(0);
 	public static class DocMap extends Mapper<Object,Text,Text,IntWritable>{
 		private Text text=new Text();
 		public void map(Object key,Text value,Context context) throws IOException,InterruptedException{
 			StringTokenizer st=new StringTokenizer(value.toString());
 			Text ikey=new Text(st.nextToken());
 			IntWritable ivalue=new IntWritable(Integer.parseInt(st.nextToken()));
-			fw.set(fw.get()+ivalue.get());
 			context.write(ikey,ivalue);
 		}
 		
@@ -46,7 +44,7 @@ public class GetPriorP extends Configuration implements Tool{
 		public void reduce(Text key,Iterable<IntWritable> values,Context context) throws IOException,InterruptedException{
 			FloatWritable  p=new FloatWritable(0);
 			for(IntWritable val:values){
-				p=new FloatWritable(val.get()/fw.get());
+				p=new FloatWritable(val.get()/11134.f);
 				context.write(key,p);
 			}
 			
