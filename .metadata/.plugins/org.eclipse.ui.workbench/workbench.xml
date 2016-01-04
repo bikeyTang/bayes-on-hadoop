@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="876" maximized="true" width="688" x="752" y="24">
+<window height="847" maximized="true" width="917" x="523" y="68">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -36,9 +36,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" partName="GetCondPro.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondPro.java" title="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondPro.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3181" selectionTopPixel="807"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" partName="GetCondP.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondP.java" title="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondP.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1334" selectionTopPixel="324"/>
 </editor>
 </editors>
 <views>
@@ -49,9 +49,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (14 items)"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (6 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -86,7 +85,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.apache.hadoop.eclipse.Perspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.apache.hadoop.eclipse.Perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -256,25 +255,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondPro.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPriorP.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WordCount/src/org/apache/hadoop/examples/WordCount.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPriorP.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondp.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondP.java"/>
 </editors>
-<item historyLabel="MyRecorderReader.java" index="1">
-<position/>
-</item>
-<item historyLabel="MyFileInputFormat.java" index="2">
-<position info="not_deleted" x="521" y="0"/>
-</item>
-<item historyLabel="MyRecorderReader.java" index="1">
-<position/>
-</item>
-<item historyLabel="GetProbability2.java" index="0">
-<position/>
-</item>
-<item historyLabel="MyFileInputFormat.java" index="2">
-<position info="not_deleted" x="691" y="0"/>
-</item>
-<item historyLabel="GetProbability2.java" index="0">
-<position info="not_deleted" x="2656" y="0"/>
-</item>
 <item historyLabel="MyRecorderReader.java" index="1">
 <position info="not_deleted" x="741" y="0"/>
 </item>
@@ -401,7 +385,28 @@
 <item historyLabel="MyFileInputFormat.java" index="2">
 <position info="not_deleted" x="110" y="0"/>
 </item>
-<item active="true" historyLabel="GetCondPro.java" index="7">
+<item historyLabel="GetCondPro.java" index="7">
+<position info="not_deleted" x="2673" y="0"/>
+</item>
+<item historyLabel="GetPriorP.java" index="10">
+<position/>
+</item>
+<item historyLabel="GetPriorP.java" index="10">
+<position/>
+</item>
+<item historyLabel="GetPriorP.java" index="10">
+<position/>
+</item>
+<item historyLabel="GetCondp.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GetCondP.java" index="12">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="GetPriorP.java" index="10">
+<position info="not_deleted" x="0" y="3339"/>
+</item>
+<item active="true" historyLabel="GetCondP.java" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -421,14 +426,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java">
+<persistable path="/myBayes/src/count/GetCondP.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java">
+<persistable path="/myBayes/src/count/GetPriorP.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondp.java" tooltip="myBayes/src/count/GetCondp.java">
+<persistable path="/myBayes/src/count/GetCondp.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java">
 <persistable path="/myBayes/src/count/GetCondPro.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordCount.java" tooltip="WordCount/src/org/apache/hadoop/examples/WordCount.java">
 <persistable path="/WordCount/src/org/apache/hadoop/examples/WordCount.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java">
-<persistable path="/myBayes/src/count/GetPriorP.java"/>
 </file>
 </mruList>
 </workbench>
