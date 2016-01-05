@@ -1,0 +1,27 @@
+
+import java.io.*;
+import java.util.Map;
+import java.util.StringTokenizer;
+public class Test {
+	public static void readFileByLine(String path) throws IOException{
+		File file=new File(path);
+		BufferedReader reader=null;
+		try {
+			reader=new BufferedReader(new FileReader(file));
+			String tempString =null;
+			int line=1;
+			Map<Integer,String> mp=new Map<Integer,String>();
+			while((tempString=reader.readLine())!=null){
+				//StringTokenizer st=new StringTokenizer(tempString);
+				
+				line++;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

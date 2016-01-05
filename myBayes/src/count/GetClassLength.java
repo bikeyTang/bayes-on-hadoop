@@ -35,6 +35,7 @@ public class GetClassLength extends Configuration implements Tool{
 		}
 		
 	}
+	
 	public static class DocReduce extends Reducer<Text ,IntWritable,Text,IntWritable>{
 		public final static IntWritable one=new IntWritable(1);
 		

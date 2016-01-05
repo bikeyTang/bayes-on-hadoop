@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="847" maximized="true" width="917" x="523" y="68">
+<window height="848" maximized="true" width="688" x="0" y="-28">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
@@ -25,20 +25,45 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1450876523686" focus="true" label="Workspace - Map/Reduce">
+<page aggregateWorkingSetId="Aggregate for window 1450876523686" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" partName="GetCondP.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondP.java" title="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" partName="GetCondP.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondP.java" title="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondP.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1334" selectionTopPixel="324"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2001" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPro.java" partName="GetPro.java" path="/home/hadoop/workspace/myBayes/src/count/GetPro.java" title="GetPro.java" tooltip="myBayes/src/count/GetPro.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetPro.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" partName="GetPriorP.java" path="/home/hadoop/workspace/myBayes/src/count/GetPriorP.java" title="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetPriorP.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2312" selectionTopPixel="531"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" partName="GetCondPro.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondPro.java" title="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondPro.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3202" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetClassLength.java" partName="GetClassLength.java" path="/home/hadoop/workspace/myBayes/src/count/GetClassLength.java" title="GetClassLength.java" tooltip="myBayes/src/count/GetClassLength.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetClassLength.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1335" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" partName="Test.java" path="/home/hadoop/workspace/testbayes/src/Test.java" title="Test.java" tooltip="testbayes/src/Test.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testbayes/src/Test.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1887" selectionTopPixel="880"/>
 </editor>
 </editors>
 <views>
@@ -46,13 +71,43 @@
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=myBayes/src&lt;count{BasicMain.java[BasicMain" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=myBayes/src&lt;count{BasicMain.java[BasicMain" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (14 items)"/>
+<category IMemento.internal.id="Warnings (20 items)"/>
+<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="217" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -63,6 +118,7 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -85,7 +141,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.apache.hadoop.eclipse.Perspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -209,7 +265,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.37688443" ratioLeft="375" ratioRight="620" relationship="2" relative="org.apache.hadoop.eclipse.perspective.left"/>
-<info folder="true" part="org.apache.hadoop.eclipse.perspective.bottom" ratio="0.7268171" ratioLeft="580" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.apache.hadoop.eclipse.perspective.bottom" ratio="0.78070176" ratioLeft="623" ratioRight="175" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -241,173 +297,270 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74981713" ratioLeft="1025" ratioRight="342" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24945135" ratioLeft="341" ratioRight="1026" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7490637" ratioLeft="600" ratioRight="201" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7495127" ratioLeft="769" ratioRight="257" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetProbability2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/MyRecorderReader.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/MyFileInputFormat.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPro.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/CreateVocVectory.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/getCondPro.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetProbability.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondPro.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPriorP.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WordCount/src/org/apache/hadoop/examples/WordCount.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPriorP.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondp.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondP.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetClassLength.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testbayes/src/Test.java"/>
 </editors>
-<item historyLabel="MyRecorderReader.java" index="1">
-<position info="not_deleted" x="741" y="0"/>
+<item historyLabel="GetClassLength.java" index="1">
+<position info="not_deleted" x="1176" y="0"/>
 </item>
-<item historyLabel="GetProbability2.java" index="0">
-<position info="not_deleted" x="2665" y="0"/>
+<item historyLabel="GetCondP.java" index="0">
+<position info="not_deleted" x="2001" y="0"/>
 </item>
-<item historyLabel="MyRecorderReader.java" index="1">
+<item historyLabel="GetClassLength.java" index="1">
+<position info="not_deleted" x="1863" y="0"/>
+</item>
+<item historyLabel="GetClassLength.java" index="1">
+<position info="not_deleted" x="1330" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="18" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="924" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="678" y="9"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="502" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="503" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="598" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
 <position/>
 </item>
-<item historyLabel="MyFileInputFormat.java" index="2">
-<position info="not_deleted" x="110" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="552" y="0"/>
 </item>
-<item historyLabel="GetProbability2.java" index="0">
-<position info="not_deleted" x="2665" y="0"/>
-</item>
-<item historyLabel="GetProbability2.java" index="0">
-<position info="not_deleted" x="2624" y="0"/>
-</item>
-<item historyLabel="GetPro.java" index="3">
-<position info="not_deleted" x="2267" y="0"/>
-</item>
-<item historyLabel="GetPro.java" index="3">
-<position info="not_deleted" x="1503" y="0"/>
-</item>
-<item historyLabel="MyRecorderReader.java" index="1">
+<item historyLabel="Test.java" index="2">
 <position/>
 </item>
-<item historyLabel="CreateVocVectory.java" index="4">
-<position info="not_deleted" x="0" y="2014"/>
+<item historyLabel="Test.java" index="2">
+<position/>
 </item>
-<item historyLabel="MyRecorderReader.java" index="1">
-<position info="not_deleted" x="2074" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="616" y="0"/>
 </item>
-<item historyLabel="GetPro.java" index="3">
-<position info="not_deleted" x="1503" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="628" y="0"/>
 </item>
-<item historyLabel="getCondPro.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="776" y="0"/>
 </item>
-<item historyLabel="GetProbability.java" index="6">
-<position info="not_deleted" x="0" y="6180"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="823" y="9"/>
 </item>
-<item historyLabel="getCondPro.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1870" y="0"/>
 </item>
-<item historyLabel="getCondPro.java" index="5">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1025" y="0"/>
 </item>
-<item historyLabel="getCondPro.java" index="5">
-<position info="not_deleted" x="1517" y="0"/>
-</item>
-<item historyLabel="GetCondPro.java" index="7">
-<position info="not_deleted" x="1842" y="0"/>
-</item>
-<item historyLabel="GetCondPro.java" index="7">
-<position info="not_deleted" x="1459" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GetCondPro.java" index="7">
-<position info="not_deleted" x="0" y="3206"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1074" y="15"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1129" y="0"/>
-</item>
-<item historyLabel="WordCount.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1129" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
+<item historyLabel="Test.java" index="2">
 <position info="not_deleted" x="1240" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1161" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1220" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1092" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1116" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1118" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1304" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1309" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1826" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
 <position/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1336" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1395" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1415" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1474" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1331" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1360" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="Test.java" index="2">
 <position/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
+<item historyLabel="Test.java" index="2">
 <position/>
 </item>
-<item historyLabel="WordCount.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1810" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1584" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1558" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1657" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1443" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1702" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1551" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1710" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1539" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1727" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1544" y="0"/>
+<item historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1795" y="0"/>
 </item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1836" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="1871" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="8">
-<position info="not_deleted" x="2477" y="0"/>
-</item>
-<item historyLabel="GetPro.java" index="3">
-<position info="not_deleted" x="1503" y="0"/>
-</item>
-<item historyLabel="MyFileInputFormat.java" index="2">
-<position info="not_deleted" x="110" y="0"/>
-</item>
-<item historyLabel="GetCondPro.java" index="7">
-<position info="not_deleted" x="2673" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="10">
-<position/>
-</item>
-<item historyLabel="GetPriorP.java" index="10">
-<position/>
-</item>
-<item historyLabel="GetPriorP.java" index="10">
-<position/>
-</item>
-<item historyLabel="GetCondp.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GetCondP.java" index="12">
-<position info="not_deleted" x="41" y="0"/>
-</item>
-<item historyLabel="GetPriorP.java" index="10">
-<position info="not_deleted" x="0" y="3339"/>
-</item>
-<item active="true" historyLabel="GetCondP.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="Test.java" index="2">
+<position info="not_deleted" x="1803" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -426,20 +579,20 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java">
-<persistable path="/myBayes/src/count/GetCondP.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="testbayes/src/Test.java">
+<persistable path="/testbayes/src/Test.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java">
-<persistable path="/myBayes/src/count/GetPriorP.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondp.java" tooltip="myBayes/src/count/GetCondp.java">
-<persistable path="/myBayes/src/count/GetCondp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetClassLength.java" tooltip="myBayes/src/count/GetClassLength.java">
+<persistable path="/myBayes/src/count/GetClassLength.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java">
 <persistable path="/myBayes/src/count/GetCondPro.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordCount.java" tooltip="WordCount/src/org/apache/hadoop/examples/WordCount.java">
-<persistable path="/WordCount/src/org/apache/hadoop/examples/WordCount.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java">
+<persistable path="/myBayes/src/count/GetPriorP.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPro.java" tooltip="myBayes/src/count/GetPro.java">
+<persistable path="/myBayes/src/count/GetPro.java"/>
 </file>
 </mruList>
 </workbench>
