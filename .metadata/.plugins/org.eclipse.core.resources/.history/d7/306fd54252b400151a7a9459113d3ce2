@@ -119,21 +119,20 @@ public class Test2 {
 					double cp=condp.get(c_key);
 					p+=cp;
 				}else{
-					p+=Double.NEGATIVE_INFINITY;
-					//p+=Math.log(1)-Math.log(cn_val.getValue());
+					p+=Math.log(1)-Math.log(cn_val.getValue()+set_length);
 				}
 				
 			}
 			p+=priorP.get(cn_val.getKey());
-//			System.out.println(p);
-//			System.out.println(cn_val.getKey());
+			System.out.println(p);
+			System.out.println(cn_val.getKey());
 			if(p>p_max){
 				p_max=p;
 				c=cn_val.getKey();
 			}
 		
 		}
-	//	System.out.println(p_max);
+		System.out.println(p_max);
 		return c;
 	}
 	public static void main(String[] args) throws IOException {
@@ -154,7 +153,7 @@ public class Test2 {
 		Map<String,Double> imp=new HashMap<String,Double>();
 		imp=getCondLogProbability(cwn_o, cn_o, v_set);
 		int rp=0,fp=0;
-		getPaths("/home/hadoop/文档/NBCorpus/Country");
+		getPaths(root_dir+"test/");
 		Iterator<String> it=path_list.iterator();
 		while(it.hasNext()){
 			boolean r=getResult(it.next(), priorP, imp, v_set, cn_o);
@@ -194,8 +193,9 @@ public class Test2 {
 			String tempString =null;
 			
 			while((tempString=reader.readLine())!=null){
-				String ikey=tempString;
-				Integer ivalue=1;
+				String[] tmp=tempString.split(" ");
+				String ikey=tmp[0];
+				Integer ivalue=Integer.parseInt(tmp[1]);
 				if(mp.containsKey(ikey)){
 					ivalue+=mp.get(ikey);
 				}
@@ -223,7 +223,6 @@ public class Test2 {
 		
 		Map<String,Integer> t_o=readFiletoMap(path);;
 		String result=predictP(priorP,condP,t_o,set,cn_o);
-		System.out.println(result+"-----"+true_class);
 		if(result.equals(true_class)){
 			return true;
 		}else{
