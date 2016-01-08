@@ -19,11 +19,11 @@
 <configuration>
 	<property>
         <name>dfs.namenode.name.dir</name>
-        <value>file:/usr/local/hadoop/tmp/dfs/name</value>
+        <value>file:/usr/local/hadoop/yarn/yarn_data/dfs/namenode</value>
     </property>
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:/usr/local/hadoop/tmp/dfs/data</value>
+        <value>file:/usr/local/hadoop/yarn/yarn_data/dfs/datanode</value>
     </property>
     <property>
         <name>dfs.replication</name>

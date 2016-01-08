@@ -9,6 +9,8 @@ import java.util.StringTokenizer;
 import java.util.Vector;
 public class Test2 {
 	static ArrayList<String > path_list=new ArrayList<String>();
+	static Map<String,Integer> st=new HashMap<String,Integer>();
+	static Map<String,Integer> cnt=new HashMap<String,Integer>();
 	/*
 	 * 读文件，按行读取，然后放入map 中，把行号作为key，把行字符串作为值
 	 */
@@ -97,8 +99,8 @@ public class Test2 {
 		
 		for(Map.Entry<String, Integer> val:cwn.entrySet()){
 			String[] s=val.getKey().split(" ");
-			int vt=val.getValue()+1;
-			int vt_sum=cn.get(s[0])+v_length; //类别词数+词典向量长度
+			int vt=val.getValue();
+			int vt_sum=cn.get(s[0]); //类别词数+词典向量长度
 			double p=Math.log(vt)-Math.log(vt_sum);
 			mp.put(val.getKey(),p);
 		}
@@ -119,8 +121,9 @@ public class Test2 {
 					double cp=condp.get(c_key);
 					p+=cp;
 				}else{
-					p+=Double.NEGATIVE_INFINITY;
-					//p+=Math.log(1)-Math.log(cn_val.getValue());
+					//p+=Double.NEGATIVE_INFINITY;
+					//p+=Math.log(1)-Math.log(cn_val.getValue()*2);
+					p+=-Math.log(cn_val.getValue()+set_length);
 				}
 				
 			}
@@ -154,7 +157,7 @@ public class Test2 {
 		Map<String,Double> imp=new HashMap<String,Double>();
 		imp=getCondLogProbability(cwn_o, cn_o, v_set);
 		int rp=0,fp=0;
-		getPaths("/home/hadoop/文档/NBCorpus/Country");
+		getPaths("/home/hadoop/下载/NB_test/Country");
 		Iterator<String> it=path_list.iterator();
 		while(it.hasNext()){
 			boolean r=getResult(it.next(), priorP, imp, v_set, cn_o);
@@ -163,6 +166,18 @@ public class Test2 {
 			}else{
 				fp++;
 			}
+		}
+		
+		for(Map.Entry<String, Integer> val:cnt.entrySet()){
+			String cnt_key=val.getKey();
+			int total=val.getValue();
+			int fps=0;
+			if(st.containsKey(cnt_key)){
+				fps=st.get(cnt_key);
+			}
+			int tp=total-fps;
+			double p=tp/total;
+			System.out.println(cnt_key+" total: "+total+"  :  tp:"+tp+"  fp:"+fps);
 		}
 		System.out.println(rp);
 		System.out.println(fp);
@@ -220,13 +235,23 @@ public class Test2 {
 	public static boolean getResult(String path,Map<String,Double> priorP,Map<String,Double> condP,HashSet<String> set,Map<String,Integer> cn_o) throws IOException{
 		String[] str_path=path.split("/");
 		String true_class=str_path[str_path.length-2];
-		
+		if(cnt.containsKey(true_class)){
+			cnt.put(true_class, 1+cnt.get(true_class));
+		}else{
+			cnt.put(true_class, 1);
+		}
 		Map<String,Integer> t_o=readFiletoMap(path);;
 		String result=predictP(priorP,condP,t_o,set,cn_o);
-		System.out.println(result+"-----"+true_class);
+		//System.out.println(result+"-----"+true_class);
 		if(result.equals(true_class)){
 			return true;
 		}else{
+			if(st.containsKey(true_class)){
+				st.put(true_class, st.get(true_class)+1);
+			}else{
+				st.put(true_class, 1);
+			}
+			
 			return false;
 		}
 		
