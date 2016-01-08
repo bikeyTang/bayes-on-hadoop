@@ -23,18 +23,16 @@ import org.apache.hadoop.io.Text;
 
 public class GetPro extends Configuration implements Tool{
 	public static class DocMap extends Mapper<Object,Text,Text,Text>{
-//		private Text word=new Text();
-//		private IntWritable one=new IntWritable(1);
+
 		public void map(Object key,Text value,Context context) throws IOException,InterruptedException{
-			//StringTokenizer itr=new StringTokenizer(value.toString());
+
 			InputSplit inputSplit=context.getInputSplit();
 			String fileName=((FileSplit)inputSplit).getPath().toString();
 			String[] str_arr=fileName.split("/");
 			int str_length=str_arr.length;
 			Text c=new Text(str_arr[str_length-2]);
 			Text doc_id=new Text(str_arr[str_length-1]);
-			//System.out.println(fileName);
-			//System.out.println(value);
+		
 			context.write(c,doc_id);
 		}
 		
@@ -52,7 +50,7 @@ public class GetPro extends Configuration implements Tool{
 		public final static IntWritable one=new IntWritable(1);
 		
 		public void reduce(Text key,Iterable<Text> values,Context context) throws IOException,InterruptedException{
-			//System.out.println(key);
+
 			IntWritable  sum=new IntWritable(0);
 			for(Text val:values){
 				sum.set(Integer.parseInt(val.toString())+sum.get());

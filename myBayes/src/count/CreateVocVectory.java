@@ -51,7 +51,5 @@ public class CreateVocVectory {
 		System.exit(job.waitForCompletion(true)?  0:1);
 		
 	}
-	public static void getPaths(Path root){
-		
-	}
+
 }
