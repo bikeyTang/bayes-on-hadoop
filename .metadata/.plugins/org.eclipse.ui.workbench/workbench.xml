@@ -37,17 +37,23 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" partName="GetPriorP.java" path="/home/hadoop/workspace/myBayes/src/count/GetPriorP.java" title="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetPriorP.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2312" selectionTopPixel="531"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2626" selectionTopPixel="801"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" partName="GetCondPro.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondPro.java" title="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondPro.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3202" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3074" selectionTopPixel="970"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetClassLength.java" partName="GetClassLength.java" path="/home/hadoop/workspace/myBayes/src/count/GetClassLength.java" title="GetClassLength.java" tooltip="myBayes/src/count/GetClassLength.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetClassLength.java"/>
@@ -59,11 +65,27 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test2.java" partName="Test2.java" path="/home/hadoop/workspace/testbayes/src/Test2.java" title="Test2.java" tooltip="testbayes/src/Test2.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testbayes/src/Test2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4754" selectionTopPixel="2367"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6474" selectionTopPixel="3722"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetTotal.java" partName="GetTotal.java" path="/home/hadoop/workspace/myBayes/src/count/GetTotal.java" title="GetTotal.java" tooltip="myBayes/src/count/GetTotal.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetTotal.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1252" selectionTopPixel="879"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1252" selectionTopPixel="805"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="core-site.xml" partName="core-site.xml" path="/home/hadoop/workspace/myBayes/src/core-site.xml" title="core-site.xml" tooltip="myBayes/src/core-site.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/core-site.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="954" selectionTopPixel="415"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="hdfs-site.xml" partName="hdfs-site.xml" path="/home/hadoop/workspace/myBayes/src/hdfs-site.xml" title="hdfs-site.xml" tooltip="myBayes/src/hdfs-site.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/hdfs-site.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="756" selectionTopPixel="85"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPro.java" partName="GetPro.java" path="/home/hadoop/workspace/myBayes/src/count/GetPro.java" title="GetPro.java" tooltip="myBayes/src/count/GetPro.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetPro.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1503" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" partName="GetCondP.java" path="/home/hadoop/workspace/myBayes/src/count/GetCondP.java" title="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/myBayes/src/count/GetCondP.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="255"/>
 </editor>
 </editors>
 <views>
@@ -100,6 +122,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="217" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -231,13 +257,13 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.apache.hadoop.eclipse.view.servers"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -258,7 +284,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.37688443" ratioLeft="375" ratioRight="620" relationship="2" relative="org.apache.hadoop.eclipse.perspective.left"/>
-<info folder="true" part="org.apache.hadoop.eclipse.perspective.bottom" ratio="0.7117795" ratioLeft="568" ratioRight="230" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.apache.hadoop.eclipse.perspective.bottom" ratio="0.6867168" ratioLeft="548" ratioRight="250" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -391,105 +417,87 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testbayes/src/Test2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/FormatInput.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetTotal.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetClassLength.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondPro.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/myBayes/src/core-site.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/myBayes/src/hdfs-site.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetTotal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPro.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetCondP.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/myBayes/src/count/GetPriorP.java"/>
 </editors>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3370" y="0"/>
+<position info="not_deleted" x="3730" y="0"/>
 </item>
-<item historyLabel="Test2.java" index="0">
+<item historyLabel="GetTotal.java" index="1">
 <position/>
 </item>
-<item historyLabel="FormatInput.java" index="1">
-<position info="not_deleted" x="2797" y="0"/>
+<item historyLabel="GetClassLength.java" index="2">
+<position info="not_deleted" x="0" y="3076"/>
+</item>
+<item historyLabel="GetTotal.java" index="1">
+<position info="not_deleted" x="1252" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3742" y="0"/>
+<position info="not_deleted" x="3730" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="1543" y="0"/>
+</item>
+<item historyLabel="core-site.xml" index="4">
+<position info="not_deleted" x="954" y="0"/>
+</item>
+<item historyLabel="hdfs-site.xml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GetTotal.java" index="6">
+<position info="not_deleted" x="1252" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="1543" y="0"/>
+</item>
+<item historyLabel="GetPro.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="1215" y="0"/>
+</item>
+<item historyLabel="GetPro.java" index="7">
+<position info="not_deleted" x="1503" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position/>
+<position info="not_deleted" x="3532" y="0"/>
+</item>
+<item historyLabel="GetCondP.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="1215" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="1869" y="0"/>
+</item>
+<item historyLabel="GetCondP.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GetPriorP.java" index="9">
+<position info="not_deleted" x="2626" y="0"/>
+</item>
+<item historyLabel="GetCondPro.java" index="3">
+<position info="not_deleted" x="3074" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position/>
+<position info="not_deleted" x="3532" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position/>
+<position info="not_deleted" x="3681" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6058" y="0"/>
+<position info="not_deleted" x="347" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6136" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6243" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6241" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6422" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6427" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4749" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5995" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5316" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5685" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="6291" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5649" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5650" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5677" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4830" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4882" y="0"/>
+<position info="not_deleted" x="349" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
 <position/>
@@ -498,49 +506,73 @@
 <position/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position/>
+<position info="not_deleted" x="7184" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4944" y="0"/>
+<position info="not_deleted" x="414" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5238" y="0"/>
+<position info="not_deleted" x="410" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="5183" y="0"/>
+<position info="not_deleted" x="412" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6757" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6758" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6782" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6804" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6805" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6838" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="6841" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="7085" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="7090" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="7166" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="7173" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="4946" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="4955" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="4975" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="5081" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="5082" y="0"/>
+</item>
+<item historyLabel="Test2.java" index="0">
+<position info="not_deleted" x="5107" y="0"/>
 </item>
 <item historyLabel="Test2.java" index="0">
 <position info="not_deleted" x="5230" y="0"/>
 </item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4575" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4642" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="4778" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3484" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3512" y="0"/>
-</item>
-<item historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3730" y="0"/>
-</item>
-<item historyLabel="GetTotal.java" index="2">
-<position/>
-</item>
-<item historyLabel="GetClassLength.java" index="3">
-<position info="not_deleted" x="0" y="3076"/>
-</item>
-<item historyLabel="GetTotal.java" index="2">
-<position info="not_deleted" x="1252" y="0"/>
-</item>
 <item active="true" historyLabel="Test2.java" index="0">
-<position info="not_deleted" x="3730" y="0"/>
+<position info="not_deleted" x="5197" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -548,6 +580,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.apache.hadoop.eclipse.perspective.left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.apache.hadoop.eclipse.perspective.bottom"/>
+<trimItem IMemento.internal.id="org.apache.hadoop.eclipse.perspective.right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -559,11 +599,20 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetTotal.java" tooltip="myBayes/src/count/GetTotal.java">
-<persistable path="/myBayes/src/count/GetTotal.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondP.java" tooltip="myBayes/src/count/GetCondP.java">
 <persistable path="/myBayes/src/count/GetCondP.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPro.java" tooltip="myBayes/src/count/GetPro.java">
+<persistable path="/myBayes/src/count/GetPro.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="hdfs-site.xml" tooltip="myBayes/src/hdfs-site.xml">
+<persistable path="/myBayes/src/hdfs-site.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="core-site.xml" tooltip="myBayes/src/core-site.xml">
+<persistable path="/myBayes/src/core-site.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetTotal.java" tooltip="myBayes/src/count/GetTotal.java">
+<persistable path="/myBayes/src/count/GetTotal.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FormatInput.java" tooltip="myBayes/src/count/FormatInput.java">
 <persistable path="/myBayes/src/count/FormatInput.java"/>
@@ -576,18 +625,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="testbayes/src/Test.java">
 <persistable path="/testbayes/src/Test.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetClassLength.java" tooltip="myBayes/src/count/GetClassLength.java">
-<persistable path="/myBayes/src/count/GetClassLength.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetCondPro.java" tooltip="myBayes/src/count/GetCondPro.java">
-<persistable path="/myBayes/src/count/GetCondPro.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPriorP.java" tooltip="myBayes/src/count/GetPriorP.java">
-<persistable path="/myBayes/src/count/GetPriorP.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetPro.java" tooltip="myBayes/src/count/GetPro.java">
-<persistable path="/myBayes/src/count/GetPro.java"/>
 </file>
 </mruList>
 </workbench>
